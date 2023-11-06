@@ -1,6 +1,8 @@
 from colorama import init
+
 init()
 from colorama import Fore, Back, Style
+
 pin = (input("Придумайте PIN-код "))
 # if len(pin) >= 8 and pin.isalpha() and pin.islower() == True or pin.isdigit() and len(pin) >= 8:
 #     print(Fore.BLACK, Style.BRIGHT, Back.LIGHTGREEN_EX, "PIN слабый", Style.RESET_ALL)
@@ -24,7 +26,3 @@ elif len(pin) >= 8 and (pin.isalpha() or pin.isdigit()):
     print(Fore.BLACK, Style.BRIGHT, Back.LIGHTGREEN_EX, "PIN слабый", Style.RESET_ALL)
 else:
     print(Fore.BLACK, Style.DIM, Back.LIGHTCYAN_EX, "PIN ОЧЕНЬ СЛАБЫЙ!!!", Style.RESET_ALL)
-
-
-
-

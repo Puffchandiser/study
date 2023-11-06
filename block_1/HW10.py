@@ -2,4 +2,4 @@
 
 a = int(input("Введи первое число "))
 b = int(input("Введи второе число "))
-for i in range(a,b+1):
+for i in range(a, b + 1):
