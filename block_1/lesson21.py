@@ -25,18 +25,28 @@
 a = int(input("Введите первое число "))
 b = int(input("Введите второе число "))
 c = input("Впишите действие ")
-def slojenie(a,b):
+
+
+def slojenie(a, b):
     x = a + b
     return x
-def raznost(a,b):
+
+
+def raznost(a, b):
     x = a - b
     return x
-def umnojenie(a,b):
+
+
+def umnojenie(a, b):
     x = a * b
     return x
-def delenie(a,b):
+
+
+def delenie(a, b):
     x = a / b
     return x
+
+
 if c == "+":
     otvet = slojenie(a, b)
     print(otvet)
@@ -52,5 +62,3 @@ elif c == "/" or ":":
     else:
         otvet = delenie(int(a), int(b))
         print(otvet)
-
-

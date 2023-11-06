@@ -31,6 +31,8 @@
 
 temperature = input("Введите значение температуры со шкалой измерения ")
 temperature_splited = temperature.split()
+
+
 def perevod():
     if "c" in temperature_splited or "C" in temperature_splited:
         otvet = f' {int(temperature_splited[0]) * 9 / 5 + 32} F'
@@ -39,4 +41,6 @@ def perevod():
     else:
         otvet = "Что-то пошло не так"
     return otvet
+
+
 print(perevod())

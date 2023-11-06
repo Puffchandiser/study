@@ -40,7 +40,7 @@ a = "привет "
 b = a.upper()
 b1 = a.lower()
 x = a.count("П")
-x1 = a.replace("п","А")
+x1 = a.replace("п", "А")
 x2 = len(a)
 print(b)
 print(x2)

@@ -11,6 +11,3 @@
 #         break
 #     else:
 #         print("нет")
-
-
-

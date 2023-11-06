@@ -14,6 +14,3 @@
 # d = [k, k1, k2]
 # for i in d:
 #     print(d)
-
-
-

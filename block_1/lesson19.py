@@ -29,4 +29,3 @@ print(count, a)
 
 # if ostatok != a:
 #         print(a - ostatok)
-

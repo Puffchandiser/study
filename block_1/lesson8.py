@@ -13,4 +13,4 @@ b = a[0]
 c = a[1]
 d = a[2]
 g = a[3]
-print(str(int(b) ** 2)+str(int(c) ** 2)+str(int(d) ** 2)+str(int(g)**2))
+print(str(int(b) ** 2) + str(int(c) ** 2) + str(int(d) ** 2) + str(int(g) ** 2))

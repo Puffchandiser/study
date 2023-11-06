@@ -1,6 +1,8 @@
 from colorama import init
+
 init()
 from colorama import Fore, Back, Style
+
 # print(Fore.RED + 'some red text')
 # print(Back.GREEN + 'and with a green background')
 # print(Style.DIM + 'and in dim text')
@@ -25,10 +27,10 @@ if c == "+":
         print(Fore.BLACK, Back.RED, "ОШИБКА!!!", Style.RESET_ALL)
     print(Back.MAGENTA, Fore.BLACK, Style.BRIGHT, d, Style.RESET_ALL)
 elif c == "//":
-    d = a//b
+    d = a // b
     print(Back.MAGENTA, Fore.BLACK, Style.BRIGHT, d, Style.RESET_ALL)
 elif c == "%":
-    d = b/100 * a
+    d = b / 100 * a
     print(Back.MAGENTA, Fore.BLACK, Style.BRIGHT, d, Style.RESET_ALL)
 elif c == "-":
     d = a - b
@@ -38,7 +40,7 @@ elif c == "*":
     print(Back.MAGENTA, Fore.BLACK, Style.BRIGHT, d, Style.RESET_ALL)
 elif c == "/":
     if b == 0:
-        print(Back.LIGHTWHITE_EX, Fore.RED, Style.NORMAL, "ДЕЛИТЬ НА НОЛЬ НЕЛЬЗЯ!",Style.RESET_ALL)
+        print(Back.LIGHTWHITE_EX, Fore.RED, Style.NORMAL, "ДЕЛИТЬ НА НОЛЬ НЕЛЬЗЯ!", Style.RESET_ALL)
     else:
         d = a / b
         print(Back.MAGENTA, Fore.BLACK, Style.BRIGHT, d, Style.RESET_ALL)
@@ -46,7 +48,4 @@ elif c == "^":
     d = a ** b
     print(d)
 else:
-    print(Back.LIGHTWHITE_EX, Fore.RED, Style.NORMAL, "ВЫ ВВЕЛИ НЕКОРРЕКТНЫЙ СИМВОЛ",Style.RESET_ALL)
-
-
-
+    print(Back.LIGHTWHITE_EX, Fore.RED, Style.NORMAL, "ВЫ ВВЕЛИ НЕКОРРЕКТНЫЙ СИМВОЛ", Style.RESET_ALL)

@@ -18,4 +18,6 @@ def my_first_recursion(a, count):
             print("Цикл рекурсии окончен")
         return
     return my_first_recursion(a, count)
+
+
 my_first_recursion(a=0, count=0)

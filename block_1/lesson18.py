@@ -23,5 +23,3 @@ for i in words:
         small_word = i
 print(longest_word)
 print(small_word)
-
-

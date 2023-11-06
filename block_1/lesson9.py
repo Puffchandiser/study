@@ -34,5 +34,3 @@ while True:
         break
     if a > 80:
         print("СКОРО КОНЕЦ ЦИКЛА")
-
-
